@@ -17,6 +17,7 @@ body {
   line-height: 1.7;
   color: #828282;
   background: #fff;
+  /* background-color: #510400; */
 }
 
 #page {
@@ -64,7 +65,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Work Sans", Arial, sans-serif, "Times New Roman";
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -296,12 +297,13 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 900px;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
 }
+
 .fh5co-cover .overlay {
   z-index: 0;
   position: absolute;
@@ -1838,6 +1840,10 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.box_textshadow {
+  text-shadow: 2px 2px 0px #ffff; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
 }
 
 /*# sourceMappingURL=style.css.map */
