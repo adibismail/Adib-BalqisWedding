@@ -461,6 +461,10 @@ h1, h2, h3, h4, h5, h6, figure {
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
+  display:grid;
+}
+.content, .overlay{
+  grid-area:1/1;
 }
 .timeline:before {
   top: 0;
@@ -1844,6 +1848,11 @@ form label {
 
 .box_textshadow {
   text-shadow: 2px 2px 0px #ffff; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
+
+#container {
+  background: rgba(0,0,0,0.4);
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
