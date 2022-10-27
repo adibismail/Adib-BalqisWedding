@@ -539,7 +539,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .timeline > li > .timeline-badge {
   background-size: cover;
-  background-position: top center;
+  
+  -position: top center;
   background-repeat: no-repeat;
   position: relative;
   color: #fff;
@@ -1654,7 +1655,7 @@ form label {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Work Sans", Arial, sans-serif, Brown Sugar;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
